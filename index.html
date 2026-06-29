@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Picmin Bloom Collection</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Picmin Bloom</p>
+        <h1>데코 피크민 컬렉션</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="필터와 저장 도구">
+        <div class="segmented" role="group" aria-label="표시 필터">
+          <button class="is-active" type="button" data-filter="all">전체</button>
+          <button type="button" data-filter="wanted">목표</button>
+          <button type="button" data-filter="owned">수집</button>
+        </div>
+        <div class="actions">
+          <button id="exportButton" type="button">내보내기</button>
+          <label class="import">
+            <input id="importInput" type="file" accept="application/json">
+            불러오기
+          </label>
+        </div>
+      </section>
+
+      <section id="collection" class="collection" aria-label="데코별 피크민 목록"></section>
+    </main>
+
+    <template id="categoryTemplate">
+      <article class="category">
+        <div class="category-head">
+          <div class="category-title">
+            <span class="category-icon" aria-hidden="true"></span>
+            <div>
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+          <div class="category-meta"></div>
+        </div>
+        <div class="pikmin-grid"></div>
+      </article>
+    </template>
+
+    <template id="pikminTemplate">
+      <button class="pikmin-card" type="button">
+        <span class="sprout" aria-hidden="true">
+          <img class="pikmin-image" alt="" loading="lazy">
+          <span class="leaf"></span>
+          <span class="head"></span>
+          <span class="body"></span>
+        </span>
+        <span class="pikmin-name"></span>
+        <span class="pikmin-state"></span>
+        <span class="mark-badge" aria-hidden="true">✓</span>
+      </button>
+    </template>
+
+    <script src="regular-data.js"></script>
+    <script src="regular-icons.js"></script>
+    <script src="regular-availability.js"></script>
+    <script src="special-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
