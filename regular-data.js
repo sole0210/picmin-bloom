@@ -1976,34 +1976,10 @@ window.REGULAR_DECOR_CATEGORIES = [
         "image": "https://pikmin.wiki.gallery/images/thumb/0/08/Decor_Red_Sticker_1.png/94px-Decor_Red_Sticker_1.png"
       },
       {
-        "key": "red-decor-red-sticker-2",
-        "type": "red",
-        "label": "빨강 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/ea/Decor_Red_Sticker_2.png/94px-Decor_Red_Sticker_2.png"
-      },
-      {
-        "key": "red-decor-red-sticker-3",
-        "type": "red",
-        "label": "빨강 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/8f/Decor_Red_Sticker_3.png/94px-Decor_Red_Sticker_3.png"
-      },
-      {
         "key": "yellow-decor-yellow-sticker-1",
         "type": "yellow",
         "label": "노랑 1",
         "image": "https://pikmin.wiki.gallery/images/thumb/b/b1/Decor_Yellow_Sticker_1.png/100px-Decor_Yellow_Sticker_1.png"
-      },
-      {
-        "key": "yellow-decor-yellow-sticker-2",
-        "type": "yellow",
-        "label": "노랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/af/Decor_Yellow_Sticker_2.png/100px-Decor_Yellow_Sticker_2.png"
-      },
-      {
-        "key": "yellow-decor-yellow-sticker-3",
-        "type": "yellow",
-        "label": "노랑 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/ea/Decor_Yellow_Sticker_3.png/100px-Decor_Yellow_Sticker_3.png"
       },
       {
         "key": "blue-decor-blue-sticker-1",
@@ -2012,34 +1988,10 @@ window.REGULAR_DECOR_CATEGORIES = [
         "image": "https://pikmin.wiki.gallery/images/thumb/b/b9/Decor_Blue_Sticker_1.png/95px-Decor_Blue_Sticker_1.png"
       },
       {
-        "key": "blue-decor-blue-sticker-2",
-        "type": "blue",
-        "label": "파랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b6/Decor_Blue_Sticker_2.png/94px-Decor_Blue_Sticker_2.png"
-      },
-      {
-        "key": "blue-decor-blue-sticker-3",
-        "type": "blue",
-        "label": "파랑 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/f4/Decor_Blue_Sticker_3.png/94px-Decor_Blue_Sticker_3.png"
-      },
-      {
         "key": "white-decor-white-sticker-1",
         "type": "white",
         "label": "하양 1",
         "image": "https://pikmin.wiki.gallery/images/thumb/6/64/Decor_White_Sticker_1.png/99px-Decor_White_Sticker_1.png"
-      },
-      {
-        "key": "white-decor-white-sticker-2",
-        "type": "white",
-        "label": "하양 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/4f/Decor_White_Sticker_2.png/94px-Decor_White_Sticker_2.png"
-      },
-      {
-        "key": "white-decor-white-sticker-3",
-        "type": "white",
-        "label": "하양 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/0f/Decor_White_Sticker_3.png/94px-Decor_White_Sticker_3.png"
       },
       {
         "key": "purple-decor-purple-sticker-1",
@@ -2048,34 +2000,10 @@ window.REGULAR_DECOR_CATEGORIES = [
         "image": "https://pikmin.wiki.gallery/images/thumb/6/69/Decor_Purple_Sticker_1.png/90px-Decor_Purple_Sticker_1.png"
       },
       {
-        "key": "purple-decor-purple-sticker-2",
-        "type": "purple",
-        "label": "보라 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/bd/Decor_Purple_Sticker_2.png/90px-Decor_Purple_Sticker_2.png"
-      },
-      {
-        "key": "purple-decor-purple-sticker-3",
-        "type": "purple",
-        "label": "보라 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2d/Decor_Purple_Sticker_3.png/90px-Decor_Purple_Sticker_3.png"
-      },
-      {
         "key": "rock-decor-rock-sticker-1",
         "type": "rock",
         "label": "바위 1",
         "image": "https://pikmin.wiki.gallery/images/thumb/7/7f/Decor_Rock_Sticker_1.png/100px-Decor_Rock_Sticker_1.png"
-      },
-      {
-        "key": "rock-decor-rock-sticker-2",
-        "type": "rock",
-        "label": "바위 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/38/Decor_Rock_Sticker_2.png/100px-Decor_Rock_Sticker_2.png"
-      },
-      {
-        "key": "rock-decor-rock-sticker-3",
-        "type": "rock",
-        "label": "바위 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Rock_Sticker_3.png/100px-Decor_Rock_Sticker_3.png"
       },
       {
         "key": "winged-decor-winged-sticker-1",
@@ -2084,34 +2012,10 @@ window.REGULAR_DECOR_CATEGORIES = [
         "image": "https://pikmin.wiki.gallery/images/thumb/5/5f/Decor_Winged_Sticker_1.png/100px-Decor_Winged_Sticker_1.png"
       },
       {
-        "key": "winged-decor-winged-sticker-2",
-        "type": "winged",
-        "label": "날개 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/00/Decor_Winged_Sticker_2.png/100px-Decor_Winged_Sticker_2.png"
-      },
-      {
-        "key": "winged-decor-winged-sticker-3",
-        "type": "winged",
-        "label": "날개 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/66/Decor_Winged_Sticker_3.png/100px-Decor_Winged_Sticker_3.png"
-      },
-      {
         "key": "ice-decor-ice-sticker-1",
         "type": "ice",
         "label": "얼음 1",
         "image": "https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Ice_Sticker_1.png/100px-Decor_Ice_Sticker_1.png"
-      },
-      {
-        "key": "ice-decor-ice-sticker-2",
-        "type": "ice",
-        "label": "얼음 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/26/Decor_Ice_Sticker_2.png/100px-Decor_Ice_Sticker_2.png"
-      },
-      {
-        "key": "ice-decor-ice-sticker-3",
-        "type": "ice",
-        "label": "얼음 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/21/Decor_Ice_Sticker_3.png/100px-Decor_Ice_Sticker_3.png"
       }
     ]
   },
@@ -2393,34 +2297,16 @@ window.REGULAR_DECOR_CATEGORIES = [
         "image": "https://pikmin.wiki.gallery/images/thumb/0/0e/Decor_Red_Theme_Park_Ticket_1.png/100px-Decor_Red_Theme_Park_Ticket_1.png"
       },
       {
-        "key": "red-decor-red-theme-park-ticket-2",
-        "type": "red",
-        "label": "빨강 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/88/Decor_Red_Theme_Park_Ticket_2.png/100px-Decor_Red_Theme_Park_Ticket_2.png"
-      },
-      {
         "key": "yellow-decor-yellow-theme-park-ticket-1",
         "type": "yellow",
         "label": "노랑 1",
         "image": "https://pikmin.wiki.gallery/images/thumb/e/e2/Decor_Yellow_Theme_Park_Ticket_1.png/100px-Decor_Yellow_Theme_Park_Ticket_1.png"
       },
       {
-        "key": "yellow-decor-yellow-theme-park-ticket-2",
-        "type": "yellow",
-        "label": "노랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/a6/Decor_Yellow_Theme_Park_Ticket_2.png/100px-Decor_Yellow_Theme_Park_Ticket_2.png"
-      },
-      {
         "key": "blue-decor-blue-theme-park-ticket-1",
         "type": "blue",
         "label": "파랑 1",
         "image": "https://pikmin.wiki.gallery/images/thumb/4/40/Decor_Blue_Theme_Park_Ticket_1.png/100px-Decor_Blue_Theme_Park_Ticket_1.png"
-      },
-      {
-        "key": "blue-decor-blue-theme-park-ticket-2",
-        "type": "blue",
-        "label": "파랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b3/Decor_Blue_Theme_Park_Ticket_2.png/100px-Decor_Blue_Theme_Park_Ticket_2.png"
       }
     ]
   },
@@ -2829,210 +2715,6 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/4/4e/Decor_Winged_Fortune_1.png/97px-Decor_Winged_Fortune_1.png"
-      }
-    ]
-  },
-  {
-    "key": "regular-shrines-and-temples-fortune-lucky",
-    "name": "Shrines and Temples",
-    "decor": "Fortune (Lucky)",
-    "icon": "+",
-    "source": "Pikipedia Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-fortune-2",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/87/Decor_Red_Fortune_2.png/100px-Decor_Red_Fortune_2.png"
-      },
-      {
-        "key": "yellow-decor-yellow-fortune-2",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/f1/Decor_Yellow_Fortune_2.png/100px-Decor_Yellow_Fortune_2.png"
-      },
-      {
-        "key": "blue-decor-blue-fortune-2",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/71/Decor_Blue_Fortune_2.png/98px-Decor_Blue_Fortune_2.png"
-      },
-      {
-        "key": "white-decor-white-fortune-2",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/09/Decor_White_Fortune_2.png/100px-Decor_White_Fortune_2.png"
-      },
-      {
-        "key": "purple-decor-purple-fortune-2",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/31/Decor_Purple_Fortune_2.png/90px-Decor_Purple_Fortune_2.png"
-      },
-      {
-        "key": "rock-decor-rock-fortune-2",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/15/Decor_Rock_Fortune_2.png/100px-Decor_Rock_Fortune_2.png"
-      },
-      {
-        "key": "winged-decor-winged-fortune-2",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/1c/Decor_Winged_Fortune_2.png/97px-Decor_Winged_Fortune_2.png"
-      }
-    ]
-  },
-  {
-    "key": "regular-shrines-and-temples-fortune-pretty-lucky",
-    "name": "Shrines and Temples",
-    "decor": "Fortune (Pretty Lucky)",
-    "icon": "+",
-    "source": "Pikipedia Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-fortune-3",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/ba/Decor_Red_Fortune_3.png/100px-Decor_Red_Fortune_3.png"
-      },
-      {
-        "key": "yellow-decor-yellow-fortune-3",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/8c/Decor_Yellow_Fortune_3.png/100px-Decor_Yellow_Fortune_3.png"
-      },
-      {
-        "key": "blue-decor-blue-fortune-3",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/e6/Decor_Blue_Fortune_3.png/98px-Decor_Blue_Fortune_3.png"
-      },
-      {
-        "key": "white-decor-white-fortune-3",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d3/Decor_White_Fortune_3.png/100px-Decor_White_Fortune_3.png"
-      },
-      {
-        "key": "purple-decor-purple-fortune-3",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/5/5c/Decor_Purple_Fortune_3.png/90px-Decor_Purple_Fortune_3.png"
-      },
-      {
-        "key": "rock-decor-rock-fortune-3",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/3f/Decor_Rock_Fortune_3.png/100px-Decor_Rock_Fortune_3.png"
-      },
-      {
-        "key": "winged-decor-winged-fortune-3",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/5/58/Decor_Winged_Fortune_3.png/97px-Decor_Winged_Fortune_3.png"
-      }
-    ]
-  },
-  {
-    "key": "regular-shrines-and-temples-fortune-a-little-lucky",
-    "name": "Shrines and Temples",
-    "decor": "Fortune (A Little Lucky)",
-    "icon": "+",
-    "source": "Pikipedia Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-fortune-4",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/70/Decor_Red_Fortune_4.png/100px-Decor_Red_Fortune_4.png"
-      },
-      {
-        "key": "yellow-decor-yellow-fortune-4",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/11/Decor_Yellow_Fortune_4.png/100px-Decor_Yellow_Fortune_4.png"
-      },
-      {
-        "key": "blue-decor-blue-fortune-4",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b7/Decor_Blue_Fortune_4.png/98px-Decor_Blue_Fortune_4.png"
-      },
-      {
-        "key": "white-decor-white-fortune-4",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/3b/Decor_White_Fortune_4.png/100px-Decor_White_Fortune_4.png"
-      },
-      {
-        "key": "purple-decor-purple-fortune-4",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/4a/Decor_Purple_Fortune_4.png/90px-Decor_Purple_Fortune_4.png"
-      },
-      {
-        "key": "rock-decor-rock-fortune-4",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2b/Decor_Rock_Fortune_4.png/100px-Decor_Rock_Fortune_4.png"
-      },
-      {
-        "key": "winged-decor-winged-fortune-4",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/fe/Decor_Winged_Fortune_4.png/97px-Decor_Winged_Fortune_4.png"
-      }
-    ]
-  },
-  {
-    "key": "regular-shrines-and-temples-fortune-future-luck",
-    "name": "Shrines and Temples",
-    "decor": "Fortune (Future Luck)",
-    "icon": "+",
-    "source": "Pikipedia Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-fortune-5",
-        "type": "red",
-        "label": "빨강 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2f/Decor_Red_Fortune_5.png/100px-Decor_Red_Fortune_5.png"
-      },
-      {
-        "key": "red-decor-winged-fortune-5",
-        "type": "red",
-        "label": "빨강 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d7/Decor_Winged_Fortune_5.png/97px-Decor_Winged_Fortune_5.png"
-      },
-      {
-        "key": "yellow-decor-yellow-fortune-5",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/65/Decor_Yellow_Fortune_5.png/100px-Decor_Yellow_Fortune_5.png"
-      },
-      {
-        "key": "blue-decor-blue-fortune-5",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/da/Decor_Blue_Fortune_5.png/98px-Decor_Blue_Fortune_5.png"
-      },
-      {
-        "key": "white-decor-white-fortune-5",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/13/Decor_White_Fortune_5.png/100px-Decor_White_Fortune_5.png"
-      },
-      {
-        "key": "purple-decor-purple-fortune-5",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b2/Decor_Purple_Fortune_5.png/90px-Decor_Purple_Fortune_5.png"
-      },
-      {
-        "key": "rock-decor-rock-fortune-5",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/e4/Decor_Rock_Fortune_5.png/100px-Decor_Rock_Fortune_5.png"
       }
     ]
   },
