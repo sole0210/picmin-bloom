@@ -31,6 +31,8 @@ const state = {
   filter: "all"
 };
 let lastTouchToggleAt = 0;
+let touchStart = null;
+const TAP_MOVE_LIMIT = 12;
 
 const collection = document.querySelector("#collection");
 const categoryTemplate = document.querySelector("#categoryTemplate");
@@ -261,13 +263,45 @@ document.querySelectorAll("[data-filter]").forEach((button) => {
   });
 });
 
+collection.addEventListener("touchstart", (event) => {
+  const card = event.target.closest(".pikmin-card");
+  if (!card || event.touches.length !== 1) {
+    touchStart = null;
+    return;
+  }
+
+  const [touch] = event.touches;
+  touchStart = {
+    card,
+    x: touch.clientX,
+    y: touch.clientY
+  };
+}, { passive: true });
+
 collection.addEventListener("touchend", (event) => {
   const card = event.target.closest(".pikmin-card");
   if (!card) return;
+
+  if (!touchStart || touchStart.card !== card || event.changedTouches.length !== 1) {
+    touchStart = null;
+    return;
+  }
+
+  const [touch] = event.changedTouches;
+  const movedX = Math.abs(touch.clientX - touchStart.x);
+  const movedY = Math.abs(touch.clientY - touchStart.y);
+  touchStart = null;
+
+  if (movedX > TAP_MOVE_LIMIT || movedY > TAP_MOVE_LIMIT) return;
+
   event.preventDefault();
   lastTouchToggleAt = Date.now();
   togglePikminCard(card);
 }, { passive: false });
+
+collection.addEventListener("touchcancel", () => {
+  touchStart = null;
+}, { passive: true });
 
 collection.addEventListener("click", (event) => {
   const card = event.target.closest(".pikmin-card");
