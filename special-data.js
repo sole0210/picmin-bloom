@@ -1,4 +1,4 @@
-// Generated from https://www.pikminwiki.com/Special_Decor_Pikmin on 2026-06-29.
+// Updated display exclusions and Tiny Instrument: Brass Band image URLs on 2026-07-04.
 window.SPECIAL_DECOR_CATEGORIES = [
   {
     "key": "special-super-mario-keychain",
@@ -30,57 +30,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "purple",
         "label": "보라",
         "image": "https://pikmin.wiki.gallery/images/thumb/4/42/Decor_Purple_Super_Mario_Keychain.png/94px-Decor_Purple_Super_Mario_Keychain.png"
-      }
-    ]
-  },
-  {
-    "key": "special-lunar-new-year-ornament-red",
-    "name": "Lunar New Year Ornament: Red",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-lunar-new-year-ornament-1",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b7/Decor_Red_Lunar_New_Year_Ornament_1.png/100px-Decor_Red_Lunar_New_Year_Ornament_1.png"
-      },
-      {
-        "key": "yellow-decor-yellow-lunar-new-year-ornament-1",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/06/Decor_Yellow_Lunar_New_Year_Ornament_1.png/100px-Decor_Yellow_Lunar_New_Year_Ornament_1.png"
-      },
-      {
-        "key": "blue-decor-blue-lunar-new-year-ornament-1",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/45/Decor_Blue_Lunar_New_Year_Ornament_1.png/100px-Decor_Blue_Lunar_New_Year_Ornament_1.png"
-      },
-      {
-        "key": "white-decor-white-lunar-new-year-ornament-1",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/aa/Decor_White_Lunar_New_Year_Ornament_1.png/100px-Decor_White_Lunar_New_Year_Ornament_1.png"
-      },
-      {
-        "key": "purple-decor-purple-lunar-new-year-ornament-1",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/a4/Decor_Purple_Lunar_New_Year_Ornament_1.png/79px-Decor_Purple_Lunar_New_Year_Ornament_1.png"
-      },
-      {
-        "key": "rock-decor-rock-lunar-new-year-ornament-1",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/5/5e/Decor_Rock_Lunar_New_Year_Ornament_1.png/100px-Decor_Rock_Lunar_New_Year_Ornament_1.png"
-      },
-      {
-        "key": "winged-decor-winged-lunar-new-year-ornament-1",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/27/Decor_Winged_Lunar_New_Year_Ornament_1.png/99px-Decor_Winged_Lunar_New_Year_Ornament_1.png"
       }
     ]
   },
@@ -280,159 +229,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
     ]
   },
   {
-    "key": "special-flower-card-volume-1",
-    "name": "Flower Card (Volume 1)",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-flower-card-1",
-        "type": "red",
-        "label": "빨강 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/5/5a/Decor_Red_Flower_Card_1.png/100px-Decor_Red_Flower_Card_1.png"
-      },
-      {
-        "key": "red-decor-red-flower-card-2",
-        "type": "red",
-        "label": "빨강 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2b/Decor_Red_Flower_Card_2.png/100px-Decor_Red_Flower_Card_2.png"
-      },
-      {
-        "key": "red-decor-red-flower-card-3",
-        "type": "red",
-        "label": "빨강 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/45/Decor_Red_Flower_Card_3.png/100px-Decor_Red_Flower_Card_3.png"
-      },
-      {
-        "key": "red-decor-red-flower-card-4",
-        "type": "red",
-        "label": "빨강 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/48/Decor_Red_Flower_Card_4.png/100px-Decor_Red_Flower_Card_4.png"
-      },
-      {
-        "key": "red-decor-red-flower-card-5",
-        "type": "red",
-        "label": "빨강 5",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/cb/Decor_Red_Flower_Card_5.png/100px-Decor_Red_Flower_Card_5.png"
-      },
-      {
-        "key": "red-decor-red-flower-card-6",
-        "type": "red",
-        "label": "빨강 6",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/9e/Decor_Red_Flower_Card_6.png/100px-Decor_Red_Flower_Card_6.png"
-      },
-      {
-        "key": "yellow-decor-yellow-flower-card-1",
-        "type": "yellow",
-        "label": "노랑 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/ee/Decor_Yellow_Flower_Card_1.png/100px-Decor_Yellow_Flower_Card_1.png"
-      },
-      {
-        "key": "yellow-decor-yellow-flower-card-2",
-        "type": "yellow",
-        "label": "노랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/ea/Decor_Yellow_Flower_Card_2.png/100px-Decor_Yellow_Flower_Card_2.png"
-      },
-      {
-        "key": "yellow-decor-yellow-flower-card-3",
-        "type": "yellow",
-        "label": "노랑 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b4/Decor_Yellow_Flower_Card_3.png/100px-Decor_Yellow_Flower_Card_3.png"
-      },
-      {
-        "key": "yellow-decor-yellow-flower-card-4",
-        "type": "yellow",
-        "label": "노랑 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/5/58/Decor_Yellow_Flower_Card_4.png/100px-Decor_Yellow_Flower_Card_4.png"
-      },
-      {
-        "key": "yellow-decor-yellow-flower-card-5",
-        "type": "yellow",
-        "label": "노랑 5",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/20/Decor_Yellow_Flower_Card_5.png/100px-Decor_Yellow_Flower_Card_5.png"
-      },
-      {
-        "key": "yellow-decor-yellow-flower-card-6",
-        "type": "yellow",
-        "label": "노랑 6",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/06/Decor_Yellow_Flower_Card_6.png/100px-Decor_Yellow_Flower_Card_6.png"
-      },
-      {
-        "key": "blue-decor-blue-flower-card-1",
-        "type": "blue",
-        "label": "파랑 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/de/Decor_Blue_Flower_Card_1.png/100px-Decor_Blue_Flower_Card_1.png"
-      },
-      {
-        "key": "blue-decor-blue-flower-card-2",
-        "type": "blue",
-        "label": "파랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/5/58/Decor_Blue_Flower_Card_2.png/100px-Decor_Blue_Flower_Card_2.png"
-      },
-      {
-        "key": "blue-decor-blue-flower-card-3",
-        "type": "blue",
-        "label": "파랑 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/72/Decor_Blue_Flower_Card_3.png/100px-Decor_Blue_Flower_Card_3.png"
-      },
-      {
-        "key": "blue-decor-blue-flower-card-4",
-        "type": "blue",
-        "label": "파랑 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/22/Decor_Blue_Flower_Card_4.png/100px-Decor_Blue_Flower_Card_4.png"
-      },
-      {
-        "key": "blue-decor-blue-flower-card-5",
-        "type": "blue",
-        "label": "파랑 5",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/40/Decor_Blue_Flower_Card_5.png/100px-Decor_Blue_Flower_Card_5.png"
-      },
-      {
-        "key": "blue-decor-blue-flower-card-6",
-        "type": "blue",
-        "label": "파랑 6",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b4/Decor_Blue_Flower_Card_6.png/100px-Decor_Blue_Flower_Card_6.png"
-      },
-      {
-        "key": "purple-decor-purple-flower-card-1",
-        "type": "purple",
-        "label": "보라 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/3e/Decor_Purple_Flower_Card_1.png/100px-Decor_Purple_Flower_Card_1.png"
-      },
-      {
-        "key": "purple-decor-purple-flower-card-2",
-        "type": "purple",
-        "label": "보라 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d7/Decor_Purple_Flower_Card_2.png/100px-Decor_Purple_Flower_Card_2.png"
-      },
-      {
-        "key": "purple-decor-purple-flower-card-3",
-        "type": "purple",
-        "label": "보라 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2e/Decor_Purple_Flower_Card_3.png/100px-Decor_Purple_Flower_Card_3.png"
-      },
-      {
-        "key": "purple-decor-purple-flower-card-4",
-        "type": "purple",
-        "label": "보라 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/07/Decor_Purple_Flower_Card_4.png/100px-Decor_Purple_Flower_Card_4.png"
-      },
-      {
-        "key": "purple-decor-purple-flower-card-5",
-        "type": "purple",
-        "label": "보라 5",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Purple_Flower_Card_5.png/100px-Decor_Purple_Flower_Card_5.png"
-      },
-      {
-        "key": "purple-decor-purple-flower-card-6",
-        "type": "purple",
-        "label": "보라 6",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/c3/Decor_Purple_Flower_Card_6.png/100px-Decor_Purple_Flower_Card_6.png"
-      }
-    ]
-  },
-  {
     "key": "special-flower-card-volume-2",
     "name": "Flower Card (Volume 2)",
     "decor": "Special Decor",
@@ -443,97 +239,97 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "key": "red-decor-red-flower-card-7",
         "type": "red",
         "label": "빨강 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/9a/Decor_Red_Flower_Card_7.png/100px-Decor_Red_Flower_Card_7.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/19/Decor_Red_Hanafuda_Card_%28Volume_2%29_2.png/94px-Decor_Red_Hanafuda_Card_%28Volume_2%29_2.png?20241230182141"
       },
       {
         "key": "red-decor-red-flower-card-8",
         "type": "red",
         "label": "빨강 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/a1/Decor_Red_Flower_Card_8.png/100px-Decor_Red_Flower_Card_8.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/3/31/Decor_Red_Hanafuda_Card_%28Volume_2%29_1.png/94px-Decor_Red_Hanafuda_Card_%28Volume_2%29_1.png?20241230182118"
       },
       {
         "key": "yellow-decor-yellow-flower-card-7",
         "type": "yellow",
         "label": "노랑 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/62/Decor_Yellow_Flower_Card_7.png/100px-Decor_Yellow_Flower_Card_7.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/b/b9/Decor_Yellow_Hanafuda_Card_%28Volume_2%29_1.png/94px-Decor_Yellow_Hanafuda_Card_%28Volume_2%29_1.png?20241230183103"
       },
       {
         "key": "yellow-decor-yellow-flower-card-8",
         "type": "yellow",
         "label": "노랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/4c/Decor_Yellow_Flower_Card_8.png/100px-Decor_Yellow_Flower_Card_8.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/0/06/Decor_Yellow_Hanafuda_Card_%28Volume_2%29_2.png/94px-Decor_Yellow_Hanafuda_Card_%28Volume_2%29_2.png?20241230183127"
       },
       {
         "key": "blue-decor-blue-flower-card-7",
         "type": "blue",
         "label": "파랑 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/ef/Decor_Blue_Flower_Card_7.png/100px-Decor_Blue_Flower_Card_7.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/7/7f/Decor_Blue_Hanafuda_Card_%28Volume_2%29_2.png/99px-Decor_Blue_Hanafuda_Card_%28Volume_2%29_2.png?20241230182622"
       },
       {
         "key": "blue-decor-blue-flower-card-8",
         "type": "blue",
         "label": "파랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/09/Decor_Blue_Flower_Card_8.png/100px-Decor_Blue_Flower_Card_8.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/15/Decor_Blue_Hanafuda_Card_%28Volume_2%29_1.png/99px-Decor_Blue_Hanafuda_Card_%28Volume_2%29_1.png?20241230182604"
       },
       {
         "key": "white-decor-white-flower-card-1",
         "type": "white",
         "label": "하양 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d2/Decor_White_Flower_Card_1.png/100px-Decor_White_Flower_Card_1.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/8/86/Decor_White_Hanafuda_Card_%28Volume_2%29_2.png/104px-Decor_White_Hanafuda_Card_%28Volume_2%29_2.png?20241230183254"
       },
       {
         "key": "white-decor-white-flower-card-2",
         "type": "white",
         "label": "하양 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/fb/Decor_White_Flower_Card_2.png/100px-Decor_White_Flower_Card_2.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/2/28/Decor_White_Hanafuda_Card_%28Volume_2%29_1.png/104px-Decor_White_Hanafuda_Card_%28Volume_2%29_1.png?20241230183217"
       },
       {
         "key": "purple-decor-purple-flower-card-7",
         "type": "purple",
         "label": "보라 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/40/Decor_Purple_Flower_Card_7.png/100px-Decor_Purple_Flower_Card_7.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/2/2a/Decor_Purple_Hanafuda_Card_%28Volume_2%29_2.png/81px-Decor_Purple_Hanafuda_Card_%28Volume_2%29_2.png?20241230183734"
       },
       {
         "key": "purple-decor-purple-flower-card-8",
         "type": "purple",
         "label": "보라 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/bb/Decor_Purple_Flower_Card_8.png/100px-Decor_Purple_Flower_Card_8.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/a/a6/Decor_Purple_Hanafuda_Card_%28Volume_2%29_1.png/81px-Decor_Purple_Hanafuda_Card_%28Volume_2%29_1.png?20241230183702"
       },
       {
         "key": "rock-decor-rock-flower-card-1",
         "type": "rock",
         "label": "바위 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/17/Decor_Rock_Flower_Card_1.png/100px-Decor_Rock_Flower_Card_1.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/4/4f/Decor_Rock_Hanafuda_Card_%28Volume_2%29_3.png/95px-Decor_Rock_Hanafuda_Card_%28Volume_2%29_3.png?20241230183831"
       },
       {
         "key": "rock-decor-rock-flower-card-2",
         "type": "rock",
         "label": "바위 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/61/Decor_Rock_Flower_Card_2.png/100px-Decor_Rock_Flower_Card_2.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/e/e3/Decor_Rock_Hanafuda_Card_%28Volume_2%29_2.png/95px-Decor_Rock_Hanafuda_Card_%28Volume_2%29_2.png?20241230183803"
       },
       {
         "key": "rock-decor-rock-flower-card-3",
         "type": "rock",
         "label": "바위 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/f4/Decor_Rock_Flower_Card_3.png/100px-Decor_Rock_Flower_Card_3.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/d/d9/Decor_Rock_Hanafuda_Card_%28Volume_2%29_1.png/95px-Decor_Rock_Hanafuda_Card_%28Volume_2%29_1.png?20250101040743"
       },
       {
         "key": "winged-decor-winged-flower-card-1",
         "type": "winged",
         "label": "날개 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/cd/Decor_Winged_Flower_Card_1.png/100px-Decor_Winged_Flower_Card_1.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/17/Decor_Winged_Hanafuda_Card_%28Volume_2%29_3.png/86px-Decor_Winged_Hanafuda_Card_%28Volume_2%29_3.png?20241230183935"
       },
       {
         "key": "winged-decor-winged-flower-card-2",
         "type": "winged",
         "label": "날개 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b5/Decor_Winged_Flower_Card_2.png/100px-Decor_Winged_Flower_Card_2.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/a/a6/Decor_Winged_Hanafuda_Card_%28Volume_2%29_2.png/86px-Decor_Winged_Hanafuda_Card_%28Volume_2%29_2.png?20241230183918"
       },
       {
         "key": "winged-decor-winged-flower-card-3",
         "type": "winged",
         "label": "날개 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2b/Decor_Winged_Flower_Card_3.png/100px-Decor_Winged_Flower_Card_3.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/2/24/Decor_Winged_Hanafuda_Card_%28Volume_2%29_1.png/86px-Decor_Winged_Hanafuda_Card_%28Volume_2%29_1.png?20250101040634"
       }
     ]
   },
@@ -691,57 +487,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
     ]
   },
   {
-    "key": "special-first-anniversary-snack",
-    "name": "First Anniversary Snack",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-first-anniversary-snack",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/f5/Decor_Red_First_Anniversary_Snack.png/100px-Decor_Red_First_Anniversary_Snack.png"
-      },
-      {
-        "key": "yellow-decor-yellow-first-anniversary-snack",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/6f/Decor_Yellow_First_Anniversary_Snack.png/100px-Decor_Yellow_First_Anniversary_Snack.png"
-      },
-      {
-        "key": "blue-decor-blue-first-anniversary-snack",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/c4/Decor_Blue_First_Anniversary_Snack.png/100px-Decor_Blue_First_Anniversary_Snack.png"
-      },
-      {
-        "key": "white-decor-white-first-anniversary-snack",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/1c/Decor_White_First_Anniversary_Snack.png/100px-Decor_White_First_Anniversary_Snack.png"
-      },
-      {
-        "key": "purple-decor-purple-first-anniversary-snack",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/46/Decor_Purple_First_Anniversary_Snack.png/100px-Decor_Purple_First_Anniversary_Snack.png"
-      },
-      {
-        "key": "rock-decor-rock-first-anniversary-snack",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/34/Decor_Rock_First_Anniversary_Snack.png/100px-Decor_Rock_First_Anniversary_Snack.png"
-      },
-      {
-        "key": "winged-decor-winged-first-anniversary-snack",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/13/Decor_Winged_First_Anniversary_Snack.png/100px-Decor_Winged_First_Anniversary_Snack.png"
-      }
-    ]
-  },
-  {
     "key": "special-koppaite-space-suit",
     "name": "Koppaite Space Suit",
     "decor": "Special Decor",
@@ -820,57 +565,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
     ]
   },
   {
-    "key": "special-2023-glasses",
-    "name": "2023 Glasses",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-2023-glasses",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/42/Decor_Red_2023_Glasses.png/100px-Decor_Red_2023_Glasses.png"
-      },
-      {
-        "key": "yellow-decor-yellow-2023-glasses",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/0e/Decor_Yellow_2023_Glasses.png/100px-Decor_Yellow_2023_Glasses.png"
-      },
-      {
-        "key": "blue-decor-blue-2023-glasses",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/e2/Decor_Blue_2023_Glasses.png/100px-Decor_Blue_2023_Glasses.png"
-      },
-      {
-        "key": "white-decor-white-2023-glasses",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/a9/Decor_White_2023_Glasses.png/100px-Decor_White_2023_Glasses.png"
-      },
-      {
-        "key": "purple-decor-purple-2023-glasses",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/8a/Decor_Purple_2023_Glasses.png/100px-Decor_Purple_2023_Glasses.png"
-      },
-      {
-        "key": "rock-decor-rock-2023-glasses",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/72/Decor_Rock_2023_Glasses.png/100px-Decor_Rock_2023_Glasses.png"
-      },
-      {
-        "key": "winged-decor-winged-2023-glasses",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Winged_2023_Glasses.png/100px-Decor_Winged_2023_Glasses.png"
-      }
-    ]
-  },
-  {
     "key": "special-2024-glasses",
     "name": "2024 Glasses",
     "decor": "Special Decor",
@@ -918,108 +612,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/6/64/Decor_Winged_2024_Glasses.png/100px-Decor_Winged_2024_Glasses.png"
-      }
-    ]
-  },
-  {
-    "key": "special-valentine-sticker",
-    "name": "Valentine Sticker",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-valentine-sticker",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/38/Decor_Red_Valentine_Sticker.png/94px-Decor_Red_Valentine_Sticker.png"
-      },
-      {
-        "key": "yellow-decor-yellow-valentine-sticker",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/86/Decor_Yellow_Valentine_Sticker.png/100px-Decor_Yellow_Valentine_Sticker.png"
-      },
-      {
-        "key": "blue-decor-blue-valentine-sticker",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/c9/Decor_Blue_Valentine_Sticker.png/100px-Decor_Blue_Valentine_Sticker.png"
-      },
-      {
-        "key": "white-decor-white-valentine-sticker",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/a2/Decor_White_Valentine_Sticker.png/100px-Decor_White_Valentine_Sticker.png"
-      },
-      {
-        "key": "purple-decor-purple-valentine-sticker",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/1a/Decor_Purple_Valentine_Sticker.png/99px-Decor_Purple_Valentine_Sticker.png"
-      },
-      {
-        "key": "rock-decor-rock-valentine-sticker",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d1/Decor_Rock_Valentine_Sticker.png/100px-Decor_Rock_Valentine_Sticker.png"
-      },
-      {
-        "key": "winged-decor-winged-valentine-sticker",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/85/Decor_Winged_Valentine_Sticker.png/100px-Decor_Winged_Valentine_Sticker.png"
-      }
-    ]
-  },
-  {
-    "key": "special-reverse-valentine-and-39-s-day-sticker",
-    "name": "Reverse Valentine&#39;s Day Sticker",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-reverse-valentine-s-day-sticker",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/a8/Decor_Red_Reverse_Valentine%27s_Day_Sticker.png/94px-Decor_Red_Reverse_Valentine%27s_Day_Sticker.png"
-      },
-      {
-        "key": "yellow-decor-yellow-reverse-valentine-s-day-sticker",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/0b/Decor_Yellow_Reverse_Valentine%27s_Day_Sticker.png/100px-Decor_Yellow_Reverse_Valentine%27s_Day_Sticker.png"
-      },
-      {
-        "key": "blue-decor-blue-reverse-valentine-s-day-sticker",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/38/Decor_Blue_Reverse_Valentine%27s_Day_Sticker.png/100px-Decor_Blue_Reverse_Valentine%27s_Day_Sticker.png"
-      },
-      {
-        "key": "white-decor-white-reverse-valentine-s-day-sticker",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/9e/Decor_White_Reverse_Valentine%27s_Day_Sticker.png/100px-Decor_White_Reverse_Valentine%27s_Day_Sticker.png"
-      },
-      {
-        "key": "purple-decor-purple-reverse-valentine-s-day-sticker",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/24/Decor_Purple_Reverse_Valentine%27s_Day_Sticker.png/100px-Decor_Purple_Reverse_Valentine%27s_Day_Sticker.png"
-      },
-      {
-        "key": "rock-decor-rock-reverse-valentine-s-day-sticker",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b8/Decor_Rock_Reverse_Valentine%27s_Day_Sticker.png/100px-Decor_Rock_Reverse_Valentine%27s_Day_Sticker.png"
-      },
-      {
-        "key": "winged-decor-winged-reverse-valentine-s-day-sticker",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/4a/Decor_Winged_Reverse_Valentine%27s_Day_Sticker.png/100px-Decor_Winged_Reverse_Valentine%27s_Day_Sticker.png"
       }
     ]
   },
@@ -1332,177 +924,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "ice",
         "label": "얼음",
         "image": "https://pikmin.wiki.gallery/images/thumb/7/70/Decor_Ice_Pikmin_4_Toy.png/100px-Decor_Ice_Pikmin_4_Toy.png"
-      }
-    ]
-  },
-  {
-    "key": "special-mahjong-tile",
-    "name": "Mahjong Tile",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-mahjong-tile-1",
-        "type": "red",
-        "label": "빨강 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/4b/Decor_Red_Mahjong_Tile_1.png/99px-Decor_Red_Mahjong_Tile_1.png"
-      },
-      {
-        "key": "red-decor-red-mahjong-tile-2",
-        "type": "red",
-        "label": "빨강 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/de/Decor_Red_Mahjong_Tile_2.png/99px-Decor_Red_Mahjong_Tile_2.png"
-      },
-      {
-        "key": "yellow-decor-yellow-mahjong-tile-1",
-        "type": "yellow",
-        "label": "노랑 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/92/Decor_Yellow_Mahjong_Tile_1.png/100px-Decor_Yellow_Mahjong_Tile_1.png"
-      },
-      {
-        "key": "yellow-decor-yellow-mahjong-tile-2",
-        "type": "yellow",
-        "label": "노랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/64/Decor_Yellow_Mahjong_Tile_2.png/100px-Decor_Yellow_Mahjong_Tile_2.png"
-      },
-      {
-        "key": "yellow-decor-yellow-mahjong-tile-3",
-        "type": "yellow",
-        "label": "노랑 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/dc/Decor_Yellow_Mahjong_Tile_3.png/100px-Decor_Yellow_Mahjong_Tile_3.png"
-      },
-      {
-        "key": "yellow-decor-yellow-mahjong-tile-4",
-        "type": "yellow",
-        "label": "노랑 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/74/Decor_Yellow_Mahjong_Tile_4.png/100px-Decor_Yellow_Mahjong_Tile_4.png"
-      },
-      {
-        "key": "blue-decor-blue-mahjong-tile-1",
-        "type": "blue",
-        "label": "파랑 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/7b/Decor_Blue_Mahjong_Tile_1.png/100px-Decor_Blue_Mahjong_Tile_1.png"
-      },
-      {
-        "key": "blue-decor-blue-mahjong-tile-2",
-        "type": "blue",
-        "label": "파랑 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/df/Decor_Blue_Mahjong_Tile_2.png/100px-Decor_Blue_Mahjong_Tile_2.png"
-      },
-      {
-        "key": "blue-decor-blue-mahjong-tile-3",
-        "type": "blue",
-        "label": "파랑 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/e2/Decor_Blue_Mahjong_Tile_3.png/100px-Decor_Blue_Mahjong_Tile_3.png"
-      },
-      {
-        "key": "blue-decor-blue-mahjong-tile-4",
-        "type": "blue",
-        "label": "파랑 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/c4/Decor_Blue_Mahjong_Tile_4.png/100px-Decor_Blue_Mahjong_Tile_4.png"
-      },
-      {
-        "key": "white-decor-white-mahjong-tile-1",
-        "type": "white",
-        "label": "하양 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/bd/Decor_White_Mahjong_Tile_1.png/96px-Decor_White_Mahjong_Tile_1.png"
-      },
-      {
-        "key": "white-decor-white-mahjong-tile-2",
-        "type": "white",
-        "label": "하양 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d1/Decor_White_Mahjong_Tile_2.png/96px-Decor_White_Mahjong_Tile_2.png"
-      },
-      {
-        "key": "white-decor-white-mahjong-tile-3",
-        "type": "white",
-        "label": "하양 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/5/5b/Decor_White_Mahjong_Tile_3.png/96px-Decor_White_Mahjong_Tile_3.png"
-      },
-      {
-        "key": "white-decor-white-mahjong-tile-4",
-        "type": "white",
-        "label": "하양 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/62/Decor_White_Mahjong_Tile_4.png/96px-Decor_White_Mahjong_Tile_4.png"
-      },
-      {
-        "key": "white-decor-white-mahjong-tile-5",
-        "type": "white",
-        "label": "하양 5",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/60/Decor_White_Mahjong_Tile_5.png/96px-Decor_White_Mahjong_Tile_5.png"
-      },
-      {
-        "key": "purple-decor-purple-mahjong-tile-1",
-        "type": "purple",
-        "label": "보라 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/c2/Decor_Purple_Mahjong_Tile_1.png/90px-Decor_Purple_Mahjong_Tile_1.png"
-      },
-      {
-        "key": "purple-decor-purple-mahjong-tile-2",
-        "type": "purple",
-        "label": "보라 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b7/Decor_Purple_Mahjong_Tile_2.png/90px-Decor_Purple_Mahjong_Tile_2.png"
-      },
-      {
-        "key": "purple-decor-purple-mahjong-tile-3",
-        "type": "purple",
-        "label": "보라 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/ef/Decor_Purple_Mahjong_Tile_3.png/90px-Decor_Purple_Mahjong_Tile_3.png"
-      },
-      {
-        "key": "purple-decor-purple-mahjong-tile-4",
-        "type": "purple",
-        "label": "보라 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/32/Decor_Purple_Mahjong_Tile_4.png/90px-Decor_Purple_Mahjong_Tile_4.png"
-      },
-      {
-        "key": "rock-decor-rock-mahjong-tile-1",
-        "type": "rock",
-        "label": "바위 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/85/Decor_Rock_Mahjong_Tile_1.png/100px-Decor_Rock_Mahjong_Tile_1.png"
-      },
-      {
-        "key": "rock-decor-rock-mahjong-tile-2",
-        "type": "rock",
-        "label": "바위 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/dc/Decor_Rock_Mahjong_Tile_2.png/100px-Decor_Rock_Mahjong_Tile_2.png"
-      },
-      {
-        "key": "rock-decor-rock-mahjong-tile-3",
-        "type": "rock",
-        "label": "바위 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/f5/Decor_Rock_Mahjong_Tile_3.png/100px-Decor_Rock_Mahjong_Tile_3.png"
-      },
-      {
-        "key": "rock-decor-rock-mahjong-tile-4",
-        "type": "rock",
-        "label": "바위 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d9/Decor_Rock_Mahjong_Tile_4.png/100px-Decor_Rock_Mahjong_Tile_4.png"
-      },
-      {
-        "key": "winged-decor-winged-mahjong-tile-1",
-        "type": "winged",
-        "label": "날개 1",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/a4/Decor_Winged_Mahjong_Tile_1.png/100px-Decor_Winged_Mahjong_Tile_1.png"
-      },
-      {
-        "key": "winged-decor-winged-mahjong-tile-2",
-        "type": "winged",
-        "label": "날개 2",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d2/Decor_Winged_Mahjong_Tile_2.png/100px-Decor_Winged_Mahjong_Tile_2.png"
-      },
-      {
-        "key": "winged-decor-winged-mahjong-tile-3",
-        "type": "winged",
-        "label": "날개 3",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/18/Decor_Winged_Mahjong_Tile_3.png/100px-Decor_Winged_Mahjong_Tile_3.png"
-      },
-      {
-        "key": "winged-decor-winged-mahjong-tile-4",
-        "type": "winged",
-        "label": "날개 4",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/b7/Decor_Winged_Mahjong_Tile_4.png/100px-Decor_Winged_Mahjong_Tile_4.png"
       }
     ]
   },
@@ -2417,43 +1838,43 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "key": "red-decor-red-tiny-instrument",
         "type": "red",
         "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/19/Decor_Red_Tiny_Instrument.png/100px-Decor_Red_Tiny_Instrument.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/8/8c/Decor_Red_Tiny_Instrument_Brass_Band.png/102px-Decor_Red_Tiny_Instrument_Brass_Band.png?20250601074419"
       },
       {
         "key": "yellow-decor-yellow-tiny-instrument",
         "type": "yellow",
         "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/fa/Decor_Yellow_Tiny_Instrument.png/100px-Decor_Yellow_Tiny_Instrument.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/b/b5/Decor_Yellow_Tiny_Instrument_Brass_Band.png/113px-Decor_Yellow_Tiny_Instrument_Brass_Band.png?20250601074421"
       },
       {
         "key": "blue-decor-blue-tiny-instrument",
         "type": "blue",
         "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/47/Decor_Blue_Tiny_Instrument.png/100px-Decor_Blue_Tiny_Instrument.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/fa/Decor_Blue_Tiny_Instrument_Brass_Band.png/113px-Decor_Blue_Tiny_Instrument_Brass_Band.png?20250601074423"
       },
       {
         "key": "white-decor-white-tiny-instrument",
         "type": "white",
         "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/67/Decor_White_Tiny_Instrument.png/100px-Decor_White_Tiny_Instrument.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/d/d8/Decor_White_Tiny_Instrument_Brass_Band.png/117px-Decor_White_Tiny_Instrument_Brass_Band.png?20250601074425"
       },
       {
         "key": "purple-decor-purple-tiny-instrument",
         "type": "purple",
         "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/7d/Decor_Purple_Tiny_Instrument.png/100px-Decor_Purple_Tiny_Instrument.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/a/a3/Decor_Purple_Tiny_Instrument_Brass_Band.png/92px-Decor_Purple_Tiny_Instrument_Brass_Band.png?20250601074427"
       },
       {
         "key": "rock-decor-rock-tiny-instrument",
         "type": "rock",
         "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/f5/Decor_Rock_Tiny_Instrument.png/100px-Decor_Rock_Tiny_Instrument.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/0/01/Decor_Rock_Tiny_Instrument_Brass_Band.png/95px-Decor_Rock_Tiny_Instrument_Brass_Band.png?20250601074429"
       },
       {
         "key": "winged-decor-winged-tiny-instrument",
         "type": "winged",
         "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/e0/Decor_Winged_Tiny_Instrument.png/100px-Decor_Winged_Tiny_Instrument.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/e/e0/Decor_Winged_Tiny_Instrument_Brass_Band.png/83px-Decor_Winged_Tiny_Instrument_Brass_Band.png?20250601074431"
       }
     ]
   },
@@ -2715,57 +2136,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "ice",
         "label": "얼음",
         "image": "https://pikmin.wiki.gallery/images/thumb/8/88/Decor_Ice_4th_Anniversary_Flower_Box.png/100px-Decor_Ice_4th_Anniversary_Flower_Box.png"
-      }
-    ]
-  },
-  {
-    "key": "special-4th-anniversary-snack",
-    "name": "4th Anniversary Snack",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-4th-anniversary-snack",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/71/Decor_Red_4th_Anniversary_Snack.png/100px-Decor_Red_4th_Anniversary_Snack.png"
-      },
-      {
-        "key": "yellow-decor-yellow-4th-anniversary-snack",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/88/Decor_Yellow_4th_Anniversary_Snack.png/100px-Decor_Yellow_4th_Anniversary_Snack.png"
-      },
-      {
-        "key": "blue-decor-blue-4th-anniversary-snack",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/98/Decor_Blue_4th_Anniversary_Snack.png/100px-Decor_Blue_4th_Anniversary_Snack.png"
-      },
-      {
-        "key": "white-decor-white-4th-anniversary-snack",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2c/Decor_White_4th_Anniversary_Snack.png/100px-Decor_White_4th_Anniversary_Snack.png"
-      },
-      {
-        "key": "purple-decor-purple-4th-anniversary-snack",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/94/Decor_Purple_4th_Anniversary_Snack.png/100px-Decor_Purple_4th_Anniversary_Snack.png"
-      },
-      {
-        "key": "rock-decor-rock-4th-anniversary-snack",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/af/Decor_Rock_4th_Anniversary_Snack.png/100px-Decor_Rock_4th_Anniversary_Snack.png"
-      },
-      {
-        "key": "winged-decor-winged-4th-anniversary-snack",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/22/Decor_Winged_4th_Anniversary_Snack.png/100px-Decor_Winged_4th_Anniversary_Snack.png"
       }
     ]
   },
@@ -3180,6 +2550,63 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "ice",
         "label": "얼음",
         "image": "https://pikmin.wiki.gallery/images/thumb/e/e2/Decor_Ice_Flower_Crown.png/100px-Decor_Ice_Flower_Crown.png"
+      }
+    ]
+  },
+  {
+    "key": "special-tiny-instrument-orchestra",
+    "name": "Tiny Instrument: Orchestra",
+    "decor": "Special Decor",
+    "icon": "*",
+    "source": "Pikipedia Special Decor Pikmin",
+    "items": [
+      {
+        "key": "red-decor-red-tiny-instrument-orchestra",
+        "type": "red",
+        "label": "빨강",
+        "image": "https://pikmin.wiki.gallery/images/thumb/9/9f/Decor_Red_Tiny_Instrument_Orchestra.png/91px-Decor_Red_Tiny_Instrument_Orchestra.png?20260703020338"
+      },
+      {
+        "key": "yellow-decor-yellow-tiny-instrument-orchestra",
+        "type": "yellow",
+        "label": "노랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/8/8f/Decor_Yellow_Tiny_Instrument_Orchestra.png/106px-Decor_Yellow_Tiny_Instrument_Orchestra.png?20260703020347"
+      },
+      {
+        "key": "blue-decor-blue-tiny-instrument-orchestra",
+        "type": "blue",
+        "label": "파랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/a/a1/Decor_Blue_Tiny_Instrument_Orchestra.png/109px-Decor_Blue_Tiny_Instrument_Orchestra.png?20260703020402"
+      },
+      {
+        "key": "white-decor-white-tiny-instrument-orchestra",
+        "type": "white",
+        "label": "하양",
+        "image": "https://pikmin.wiki.gallery/images/thumb/5/57/Decor_White_Tiny_Instrument_Orchestra.png/70px-Decor_White_Tiny_Instrument_Orchestra.png?20260703020418"
+      },
+      {
+        "key": "purple-decor-purple-tiny-instrument-orchestra",
+        "type": "purple",
+        "label": "보라",
+        "image": "https://pikmin.wiki.gallery/images/thumb/8/85/Decor_Purple_Tiny_Instrument_Orchestra.png/98px-Decor_Purple_Tiny_Instrument_Orchestra.png?20260703020410"
+      },
+      {
+        "key": "rock-decor-rock-tiny-instrument-orchestra",
+        "type": "rock",
+        "label": "바위",
+        "image": "https://pikmin.wiki.gallery/images/thumb/2/20/Decor_Rock_Tiny_Instrument_Orchestra.png/98px-Decor_Rock_Tiny_Instrument_Orchestra.png?20260703020431"
+      },
+      {
+        "key": "winged-decor-winged-tiny-instrument-orchestra",
+        "type": "winged",
+        "label": "날개",
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/13/Decor_Winged_Tiny_Instrument_Orchestra.png/113px-Decor_Winged_Tiny_Instrument_Orchestra.png?20260703020440"
+      },
+      {
+        "key": "ice-decor-ice-tiny-instrument-orchestra",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/c/cf/Decor_Ice_Tiny_Instrument_Orchestra.png/108px-Decor_Ice_Tiny_Instrument_Orchestra.png?20260703020451"
       }
     ]
   },
