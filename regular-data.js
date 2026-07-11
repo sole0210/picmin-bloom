@@ -1,4 +1,4 @@
-// Updated display exclusions on 2026-07-04.
+// Updated with July 2026 regular rare Decor Pikmin on 2026-07-11.
 window.REGULAR_DECOR_CATEGORIES = [
   {
     "key": "regular-restaurant-chef-hat-rare",
@@ -894,6 +894,57 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/d/dc/Decor_Winged_Ticket.png/100px-Decor_Winged_Ticket.png"
+      }
+    ]
+  },
+  {
+    "key": "regular-station-ticket-rare",
+    "name": "Station",
+    "decor": "Ticket (Rare)",
+    "icon": "station",
+    "source": "Pikipedia Decor Pikmin",
+    "items": [
+      {
+        "key": "red-decor-red-ticket-rare",
+        "type": "red",
+        "label": "빨강",
+        "image": "https://pikmin.wiki.gallery/images/thumb/8/83/Decor_Red_Ticket_%28Rare%29.png/90px-Decor_Red_Ticket_%28Rare%29.png?20260710010904"
+      },
+      {
+        "key": "yellow-decor-yellow-ticket-rare",
+        "type": "yellow",
+        "label": "노랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/4/4b/Decor_Yellow_Ticket_%28Rare%29.png/89px-Decor_Yellow_Ticket_%28Rare%29.png?20260710010912"
+      },
+      {
+        "key": "blue-decor-blue-ticket-rare",
+        "type": "blue",
+        "label": "파랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/e/e2/Decor_Blue_Ticket_%28Rare%29.png/90px-Decor_Blue_Ticket_%28Rare%29.png?20260710010920"
+      },
+      {
+        "key": "white-decor-white-ticket-rare",
+        "type": "white",
+        "label": "하양",
+        "image": "https://pikmin.wiki.gallery/images/thumb/3/33/Decor_White_Ticket_%28Rare%29.png/98px-Decor_White_Ticket_%28Rare%29.png?20260710010933"
+      },
+      {
+        "key": "purple-decor-purple-ticket-rare",
+        "type": "purple",
+        "label": "보라",
+        "image": "https://pikmin.wiki.gallery/images/thumb/9/96/Decor_Purple_Ticket_%28Rare%29.png/72px-Decor_Purple_Ticket_%28Rare%29.png?20260710010927"
+      },
+      {
+        "key": "rock-decor-rock-ticket-rare",
+        "type": "rock",
+        "label": "바위",
+        "image": "https://pikmin.wiki.gallery/images/thumb/d/d4/Decor_Rock_Ticket_%28Rare%29.png/95px-Decor_Rock_Ticket_%28Rare%29.png?20260710010940"
+      },
+      {
+        "key": "winged-decor-winged-ticket-rare",
+        "type": "winged",
+        "label": "날개",
+        "image": "https://pikmin.wiki.gallery/images/thumb/9/99/Decor_Winged_Ticket_%28Rare%29.png/94px-Decor_Winged_Ticket_%28Rare%29.png?20260710010949"
       }
     ]
   },
@@ -1857,6 +1908,57 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/4/44/Decor_Winged_Ball_Keychain.png/100px-Decor_Winged_Ball_Keychain.png"
+      }
+    ]
+  },
+  {
+    "key": "regular-stadium-ball-keychain-rare",
+    "name": "Stadium",
+    "decor": "Ball Keychain (Rare)",
+    "icon": "stadium",
+    "source": "Pikipedia Decor Pikmin",
+    "items": [
+      {
+        "key": "red-decor-red-ball-keychain-rare",
+        "type": "red",
+        "label": "빨강",
+        "image": "https://pikmin.wiki.gallery/images/thumb/0/0d/Decor_Red_Ball_Keychain_%28Rare%29.png/82px-Decor_Red_Ball_Keychain_%28Rare%29.png?20260710010523"
+      },
+      {
+        "key": "yellow-decor-yellow-ball-keychain-rare",
+        "type": "yellow",
+        "label": "노랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/f9/Decor_Yellow_Ball_Keychain_%28Rare%29.png/86px-Decor_Yellow_Ball_Keychain_%28Rare%29.png?20260710010533"
+      },
+      {
+        "key": "blue-decor-blue-ball-keychain-rare",
+        "type": "blue",
+        "label": "파랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/8/89/Decor_Blue_Ball_Keychain_%28Rare%29.png/83px-Decor_Blue_Ball_Keychain_%28Rare%29.png?20260710010540"
+      },
+      {
+        "key": "white-decor-white-ball-keychain-rare",
+        "type": "white",
+        "label": "하양",
+        "image": "https://pikmin.wiki.gallery/images/thumb/6/61/Decor_White_Ball_Keychain_%28Rare%29.png/98px-Decor_White_Ball_Keychain_%28Rare%29.png?20260710010557"
+      },
+      {
+        "key": "purple-decor-purple-ball-keychain-rare",
+        "type": "purple",
+        "label": "보라",
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/fa/Decor_Purple_Ball_Keychain_%28Rare%29.png/93px-Decor_Purple_Ball_Keychain_%28Rare%29.png?20260710010550"
+      },
+      {
+        "key": "rock-decor-rock-ball-keychain-rare",
+        "type": "rock",
+        "label": "바위",
+        "image": "https://pikmin.wiki.gallery/images/thumb/b/b1/Decor_Rock_Ball_Keychain_%28Rare%29.png/74px-Decor_Rock_Ball_Keychain_%28Rare%29.png?20260710010607"
+      },
+      {
+        "key": "winged-decor-winged-ball-keychain-rare",
+        "type": "winged",
+        "label": "날개",
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/f4/Decor_Winged_Ball_Keychain_%28Rare%29.png/104px-Decor_Winged_Ball_Keychain_%28Rare%29.png?20260710010614"
       }
     ]
   },
