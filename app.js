@@ -25,7 +25,15 @@ const SPECIAL_CATEGORIES = (window.SPECIAL_DECOR_CATEGORIES || []).map((category
 }));
 
 const CATEGORIES = [...REGULAR_CATEGORIES, ...SPECIAL_CATEGORIES];
-const STORAGE_KEY = "picmin-bloom-collection-v1";
+const LOCAL_PREVIEW_HOSTS = new Set(["", "localhost", "127.0.0.1", "::1"]);
+const STORAGE_KEY = LOCAL_PREVIEW_HOSTS.has(window.location.hostname)
+  ? "picmin-bloom-collection-v2-local"
+  : "picmin-bloom-collection-v1";
+const STATUS_DEFINITIONS = [
+  { key: "closeup", title: "얼빡을 모았다", icon: "assets/status-icons/closeup.png" },
+  { key: "upsideDown", title: "거꾸리를 모았다", icon: "assets/status-icons/upside-down.png" }
+];
+const MARK_STATUS_KEYS = ["wanted", ...STATUS_DEFINITIONS.map((status) => status.key)];
 const state = {
   marks: loadMarks(),
   filter: "all"
@@ -135,10 +143,42 @@ function normalizeKey(value) {
 
 function loadMarks() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    return normalizeMarks(JSON.parse(localStorage.getItem(STORAGE_KEY)) || {});
   } catch {
     return {};
   }
+}
+
+function normalizeMarks(marks) {
+  return Object.fromEntries(
+    Object.entries(marks).flatMap(([key, mark]) => {
+      const normalized = normalizeMark(mark);
+      return hasAnyStatus(normalized) ? [[key, normalized]] : [];
+    })
+  );
+}
+
+function normalizeMark(mark) {
+  if (!mark || mark === "none") return {};
+  if (mark === "wanted") return { wanted: true };
+  if (mark === "owned") return { closeup: true };
+  if (typeof mark !== "object") return {};
+
+  const closeup = Boolean(mark.closeup);
+  const upsideDown = Boolean(mark.upsideDown);
+  return {
+    wanted: Boolean(mark.wanted) && !closeup && !upsideDown,
+    closeup,
+    upsideDown
+  };
+}
+
+function hasAnyStatus(mark) {
+  return MARK_STATUS_KEYS.some((statusKey) => mark[statusKey]);
+}
+
+function hasCollectedStatus(mark) {
+  return Boolean(mark.closeup || mark.upsideDown);
 }
 
 function saveMarks() {
@@ -154,18 +194,21 @@ function itemKey(categoryKey, item) {
 }
 
 function getMark(categoryKey, item) {
-  return state.marks[itemKey(categoryKey, item)] || "none";
-}
-
-function nextMark(mark) {
-  if (mark === "none") return "wanted";
-  if (mark === "wanted") return "owned";
-  return "none";
+  const key = itemKey(categoryKey, item);
+  const normalized = normalizeMark(state.marks[key]);
+  if (hasAnyStatus(normalized)) {
+    state.marks[key] = normalized;
+  } else {
+    delete state.marks[key];
+  }
+  return normalized;
 }
 
 function matchesFilter(category, item) {
   const mark = getMark(category.key, item);
-  return state.filter === "all" || mark === state.filter;
+  if (state.filter === "wanted") return Boolean(mark.wanted);
+  if (state.filter === "owned") return hasCollectedStatus(mark);
+  return true;
 }
 
 function render() {
@@ -183,7 +226,7 @@ function render() {
     node.querySelector("h2").textContent = category.name;
     node.querySelector("p").textContent = category.decor;
 
-    const ownedInCategory = category.items.filter((item) => getMark(category.key, item) === "owned").length;
+    const ownedInCategory = category.items.filter((item) => hasCollectedStatus(getMark(category.key, item))).length;
     node.querySelector(".category-meta").textContent = `${ownedInCategory} / ${category.items.length}`;
 
     const grid = node.querySelector(".pikmin-grid");
@@ -219,9 +262,7 @@ function createPikminCard(category, item) {
   card.dataset.categoryKey = category.key;
   card.dataset.itemKey = item.key;
   card.dataset.typeKey = item.typeKey;
-  card.dataset.mark = mark;
-  card.classList.toggle("is-owned", mark === "owned");
-  card.classList.toggle("is-wanted", mark === "wanted");
+  card.dataset.mark = hasCollectedStatus(mark) ? "owned" : mark.wanted ? "wanted" : "none";
   card.classList.toggle("has-image", Boolean(item.image));
   card.classList.toggle("is-placeholder", item.placeholder);
 
@@ -232,26 +273,57 @@ function createPikminCard(category, item) {
   }
 
   card.setAttribute("aria-label", `${category.name} ${item.label}`);
+  renderStatusToggles(card.querySelector(".status-toggles"), mark);
   return card;
 }
 
-function togglePikminMark(category, item) {
+function renderStatusToggles(container, mark) {
+  container.innerHTML = "";
+  STATUS_DEFINITIONS.forEach((status) => {
+    const button = document.createElement("button");
+    button.className = "status-toggle";
+    button.type = "button";
+    button.dataset.status = status.key;
+    button.classList.toggle("is-active", Boolean(mark[status.key]));
+    button.setAttribute("aria-pressed", String(Boolean(mark[status.key])));
+    button.setAttribute("aria-label", status.title);
+    button.title = status.title;
+
+    const icon = document.createElement("img");
+    icon.className = "status-icon";
+    icon.src = status.icon;
+    icon.alt = "";
+    icon.setAttribute("aria-hidden", "true");
+    button.appendChild(icon);
+    container.appendChild(button);
+  });
+}
+
+function togglePikminStatus(category, item, statusKey) {
   const key = itemKey(category.key, item);
-  const updated = nextMark(getMark(category.key, item));
-  if (updated === "none") {
-    delete state.marks[key];
-  } else {
+  const current = getMark(category.key, item);
+  const updated = {
+    ...current,
+    [statusKey]: !current[statusKey]
+  };
+  if ((statusKey === "closeup" || statusKey === "upsideDown") && updated[statusKey]) {
+    updated.wanted = false;
+  }
+  if (hasAnyStatus(updated)) {
     state.marks[key] = updated;
+  } else {
+    delete state.marks[key];
   }
   saveMarks();
   render();
 }
 
-function togglePikminCard(card) {
+function togglePikminCard(card, statusKey = "wanted") {
   const category = CATEGORIES.find((candidate) => candidate.key === card.dataset.categoryKey);
   const item = category?.items.find((candidate) => candidate.key === card.dataset.itemKey);
   if (!category || !item) return;
-  togglePikminMark(category, item);
+  if (statusKey === "wanted" && hasCollectedStatus(getMark(category.key, item))) return;
+  togglePikminStatus(category, item, statusKey);
 }
 
 document.querySelectorAll("[data-filter]").forEach((button) => {
@@ -296,7 +368,8 @@ collection.addEventListener("touchend", (event) => {
 
   event.preventDefault();
   lastTouchToggleAt = Date.now();
-  togglePikminCard(card);
+  const statusButton = event.target.closest(".status-toggle");
+  togglePikminCard(card, statusButton?.dataset.status || "wanted");
 }, { passive: false });
 
 collection.addEventListener("touchcancel", () => {
@@ -307,7 +380,19 @@ collection.addEventListener("click", (event) => {
   const card = event.target.closest(".pikmin-card");
   if (!card) return;
   if (Date.now() - lastTouchToggleAt < 700) return;
-  togglePikminCard(card);
+  const statusButton = event.target.closest(".status-toggle");
+  togglePikminCard(card, statusButton?.dataset.status || "wanted");
+});
+
+collection.addEventListener("keydown", (event) => {
+  if (event.key !== "Enter" && event.key !== " ") return;
+
+  const card = event.target.closest(".pikmin-card");
+  if (!card) return;
+
+  event.preventDefault();
+  const statusButton = event.target.closest(".status-toggle");
+  togglePikminCard(card, statusButton?.dataset.status || "wanted");
 });
 
 document.querySelector("#exportButton").addEventListener("click", () => {
@@ -326,7 +411,7 @@ document.querySelector("#importInput").addEventListener("change", async (event) 
   if (!file) return;
   try {
     const imported = JSON.parse(await file.text());
-    state.marks = imported.marks || imported || {};
+    state.marks = normalizeMarks(imported.marks || imported || {});
     saveMarks();
     render();
   } catch {

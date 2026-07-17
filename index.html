@@ -1,10 +1,10 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Picmin Bloom Collection</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260718-8">
   </head>
   <body>
     <header class="topbar">
@@ -50,7 +50,7 @@
     </template>
 
     <template id="pikminTemplate">
-      <button class="pikmin-card" type="button">
+      <article class="pikmin-card" role="button" tabindex="0">
         <span class="sprout" aria-hidden="true">
           <img class="pikmin-image" alt="" loading="lazy">
           <span class="leaf"></span>
@@ -59,14 +59,14 @@
         </span>
         <span class="pikmin-name"></span>
         <span class="pikmin-state"></span>
-        <span class="mark-badge" aria-hidden="true">✓</span>
-      </button>
+        <span class="status-toggles" aria-label="postcard status"></span>
+      </article>
     </template>
 
-    <script src="regular-data.js?v=20260711-1"></script>
-    <script src="regular-icons.js?v=20260711-1"></script>
-    <script src="regular-availability.js?v=20260711-1"></script>
-    <script src="special-data.js?v=20260711-1"></script>
-    <script src="app.js?v=20260711-1"></script>
+    <script src="regular-data.js?v=20260718-7"></script>
+    <script src="regular-icons.js?v=20260718-2"></script>
+    <script src="regular-availability.js?v=20260718-2"></script>
+    <script src="special-data.js?v=20260718-7"></script>
+    <script src="app.js?v=20260718-8"></script>
   </body>
 </html>

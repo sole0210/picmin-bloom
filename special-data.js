@@ -1,4 +1,4 @@
-// Updated display exclusions and Tiny Instrument: Brass Band image URLs on 2026-07-04.
+// Updated display exclusions and Jack-o'-Lantern image URLs on 2026-07-18.
 window.SPECIAL_DECOR_CATEGORIES = [
   {
     "key": "special-super-mario-keychain",
@@ -335,7 +335,7 @@ window.SPECIAL_DECOR_CATEGORIES = [
   },
   {
     "key": "special-jack-o-and-39-lantern",
-    "name": "Jack-o&#39;-Lantern",
+    "name": "Jack-o'-Lantern",
     "decor": "Special Decor",
     "icon": "*",
     "source": "Pikipedia Special Decor Pikmin",
@@ -344,43 +344,43 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "key": "red-decor-red-jack-o-lantern",
         "type": "red",
         "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/d/d2/Decor_Red_Jack-o%27-Lantern.png/100px-Decor_Red_Jack-o%27-Lantern.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/a/ae/Decor_Red_Jack-o%27-lantern.png/86px-Decor_Red_Jack-o%27-lantern.png?20250603053746"
       },
       {
         "key": "yellow-decor-yellow-jack-o-lantern",
         "type": "yellow",
         "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/3/3e/Decor_Yellow_Jack-o%27-Lantern.png/94px-Decor_Yellow_Jack-o%27-Lantern.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/3/38/Decor_Yellow_Jack-o%27-lantern.png/75px-Decor_Yellow_Jack-o%27-lantern.png?20250603053812"
       },
       {
         "key": "blue-decor-blue-jack-o-lantern",
         "type": "blue",
         "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/bf/Decor_Blue_Jack-o%27-Lantern.png/78px-Decor_Blue_Jack-o%27-Lantern.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/17/Decor_Blue_Jack-o%27-lantern.png/62px-Decor_Blue_Jack-o%27-lantern.png?20250603053758"
       },
       {
         "key": "white-decor-white-jack-o-lantern",
         "type": "white",
         "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/b/bb/Decor_White_Jack-o%27-Lantern.png/100px-Decor_White_Jack-o%27-Lantern.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/b/b5/Decor_White_Jack-o%27-lantern.png/81px-Decor_White_Jack-o%27-lantern.png?20250603053824"
       },
       {
         "key": "purple-decor-purple-jack-o-lantern",
         "type": "purple",
         "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/8/84/Decor_Purple_Jack-o%27-Lantern.png/76px-Decor_Purple_Jack-o%27-Lantern.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/2/2c/Decor_Purple_Jack-o%27-lantern.png/60px-Decor_Purple_Jack-o%27-lantern.png?20250603053830"
       },
       {
         "key": "rock-decor-rock-jack-o-lantern",
         "type": "rock",
         "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/aa/Decor_Rock_Jack-o%27-Lantern.png/100px-Decor_Rock_Jack-o%27-Lantern.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/f5/Decor_Rock_Jack-o%27-lantern.png/100px-Decor_Rock_Jack-o%27-lantern.png?20250603053840"
       },
       {
         "key": "winged-decor-winged-jack-o-lantern",
         "type": "winged",
         "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/15/Decor_Winged_Jack-o%27-Lantern.png/99px-Decor_Winged_Jack-o%27-Lantern.png"
+        "image": "https://pikmin.wiki.gallery/images/thumb/6/6d/Decor_Winged_Jack-o%27-lantern.png/79px-Decor_Winged_Jack-o%27-lantern.png?20250603053847"
       }
     ]
   },
@@ -1041,108 +1041,6 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "ice",
         "label": "얼음",
         "image": "https://pikmin.wiki.gallery/images/thumb/6/6b/Decor_Ice_Ice_Cream_1.png/96px-Decor_Ice_Ice_Cream_1.png"
-      }
-    ]
-  },
-  {
-    "key": "special-puzzle-2024-fall-memories",
-    "name": "Puzzle: 2024 Fall Memories",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-puzzle-3",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/06/Decor_Red_Puzzle_3.png/100px-Decor_Red_Puzzle_3.png"
-      },
-      {
-        "key": "yellow-decor-yellow-puzzle-3",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/9b/Decor_Yellow_Puzzle_3.png/100px-Decor_Yellow_Puzzle_3.png"
-      },
-      {
-        "key": "blue-decor-blue-puzzle-3",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/99/Decor_Blue_Puzzle_3.png/100px-Decor_Blue_Puzzle_3.png"
-      },
-      {
-        "key": "white-decor-white-puzzle-3",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_White_Puzzle_3.png/100px-Decor_White_Puzzle_3.png"
-      },
-      {
-        "key": "purple-decor-purple-puzzle-3",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/1/18/Decor_Purple_Puzzle_3.png/90px-Decor_Purple_Puzzle_3.png"
-      },
-      {
-        "key": "rock-decor-rock-puzzle-3",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/6/65/Decor_Rock_Puzzle_3.png/100px-Decor_Rock_Puzzle_3.png"
-      },
-      {
-        "key": "winged-decor-winged-puzzle-3",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/9a/Decor_Winged_Puzzle_3.png/100px-Decor_Winged_Puzzle_3.png"
-      }
-    ]
-  },
-  {
-    "key": "special-spring-sticker",
-    "name": "Spring Sticker",
-    "decor": "Special Decor",
-    "icon": "*",
-    "source": "Pikipedia Special Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-spring-sticker",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/e8/Decor_Red_Spring_Sticker.png/94px-Decor_Red_Spring_Sticker.png"
-      },
-      {
-        "key": "yellow-decor-yellow-spring-sticker",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2f/Decor_Yellow_Spring_Sticker.png/100px-Decor_Yellow_Spring_Sticker.png"
-      },
-      {
-        "key": "blue-decor-blue-spring-sticker",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/eb/Decor_Blue_Spring_Sticker.png/100px-Decor_Blue_Spring_Sticker.png"
-      },
-      {
-        "key": "white-decor-white-spring-sticker",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/7/78/Decor_White_Spring_Sticker.png/94px-Decor_White_Spring_Sticker.png"
-      },
-      {
-        "key": "purple-decor-purple-spring-sticker",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/43/Decor_Purple_Spring_Sticker.png/90px-Decor_Purple_Spring_Sticker.png"
-      },
-      {
-        "key": "rock-decor-rock-spring-sticker",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/43/Decor_Rock_Spring_Sticker.png/100px-Decor_Rock_Spring_Sticker.png"
-      },
-      {
-        "key": "winged-decor-winged-spring-sticker",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/cd/Decor_Winged_Spring_Sticker.png/100px-Decor_Winged_Spring_Sticker.png"
       }
     ]
   },

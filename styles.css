@@ -194,9 +194,9 @@ h2 {
   align-items: center;
   min-height: 6.4rem;
   padding: 0.45rem;
-  border: 2px solid #d8e2da;
+  border: 2px solid #cfd4d1;
   border-radius: 8px;
-  background: #f7faf5;
+  background: #ecefed;
   color: var(--ink);
   cursor: pointer;
   touch-action: manipulation;
@@ -208,18 +208,23 @@ h2 {
   pointer-events: none;
 }
 
+.pikmin-card .status-toggles,
+.pikmin-card .status-toggle {
+  pointer-events: auto;
+}
+
 .pikmin-card:hover {
   transform: translateY(-2px);
 }
 
-.pikmin-card.is-owned {
+.pikmin-card[data-mark="owned"] {
   border-color: var(--owned);
   background: #e1f7e6;
   box-shadow: inset 0 0 0 4px rgba(47, 158, 100, 0.28), 0 10px 18px rgba(47, 158, 100, 0.22);
   transform: translateY(-1px);
 }
 
-.pikmin-card.is-wanted {
+.pikmin-card[data-mark="wanted"] {
   border-color: var(--wanted);
   background: #fff2d4;
   box-shadow: inset 0 0 0 4px rgba(217, 139, 31, 0.24), 0 10px 18px rgba(217, 139, 31, 0.18);
@@ -260,8 +265,8 @@ h2 {
   transition: opacity 150ms ease, filter 150ms ease, transform 150ms ease;
 }
 
-.pikmin-card.is-owned .pikmin-image,
-.pikmin-card.is-wanted .pikmin-image {
+.pikmin-card[data-mark="owned"] .pikmin-image,
+.pikmin-card[data-mark="wanted"] .pikmin-image {
   opacity: 1;
   filter: saturate(1.18) brightness(1.06);
   transform: scale(1.04);
@@ -345,55 +350,67 @@ h2 {
   font-weight: 800;
 }
 
-.pikmin-card.is-owned .pikmin-state {
+.pikmin-card[data-mark="owned"] .pikmin-state {
   background: var(--owned);
   color: #fff;
 }
 
-.pikmin-card.is-wanted .pikmin-state {
+.pikmin-card[data-mark="wanted"] .pikmin-state {
   background: var(--wanted);
   color: #fff;
 }
 
-.mark-badge {
-  position: absolute;
-  top: 0.3rem;
-  right: 0.3rem;
+.status-toggles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.18rem;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.status-toggle {
   display: grid;
   place-items: center;
-  width: 1.65rem;
-  height: 1.65rem;
-  border-radius: 50%;
-  background: var(--owned);
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 900;
-  opacity: 0;
-  transform: scale(0.7);
-  border: 2px solid #fff;
-  box-shadow: 0 6px 12px rgba(33, 49, 42, 0.2);
-  transition: opacity 150ms ease, transform 150ms ease;
+  min-width: 0;
+  min-height: 1.65rem;
+  padding: 0.12rem;
+  border: 1px solid #d8e2da;
+  border-radius: 0.38rem;
+  background: rgba(255, 255, 255, 0.78);
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.pikmin-card.is-owned .mark-badge {
+.status-toggle.is-active {
+  background: #fff;
+}
+
+.status-toggle[data-status="closeup"].is-active,
+.status-toggle[data-status="upsideDown"].is-active {
+  border-color: var(--owned);
+  box-shadow: 0 0 0 2px rgba(47, 158, 100, 0.2);
+}
+
+.status-icon {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 0.22rem;
+  object-fit: cover;
+  opacity: 0.24;
+  filter: grayscale(1);
+  transition: opacity 140ms ease, filter 140ms ease, transform 140ms ease;
+}
+
+.status-toggle:hover .status-icon,
+.status-toggle:focus-visible .status-icon {
+  opacity: 0.55;
+}
+
+.status-toggle.is-active .status-icon {
   opacity: 1;
-  transform: scale(1);
-}
-
-.pikmin-card.is-wanted .mark-badge {
-  content: "!";
-  opacity: 1;
-  transform: scale(1);
-  background: var(--wanted);
-}
-
-.pikmin-card.is-wanted .mark-badge {
-  font-size: 0;
-}
-
-.pikmin-card.is-wanted .mark-badge::after {
-  content: "!";
-  font-size: 0.9rem;
+  filter: none;
+  transform: scale(1.04);
 }
 
 .empty {
@@ -430,7 +447,7 @@ h2 {
   }
 
   .pikmin-card {
-    min-height: 5.9rem;
+    min-height: 7.2rem;
     padding: 0.35rem;
   }
 
@@ -449,8 +466,12 @@ h2 {
     font-size: 0.66rem;
   }
 
-  .mark-badge {
-    width: 1.45rem;
-    height: 1.45rem;
+  .status-toggle {
+    min-height: 1.55rem;
+  }
+
+  .status-icon {
+    width: 1.18rem;
+    height: 1.18rem;
   }
 }

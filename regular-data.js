@@ -1,4 +1,4 @@
-// Updated with July 2026 regular rare Decor Pikmin on 2026-07-11.
+// Updated display exclusions on 2026-07-18.
 window.REGULAR_DECOR_CATEGORIES = [
   {
     "key": "regular-restaurant-chef-hat-rare",
@@ -1698,63 +1698,6 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "ice",
         "label": "얼음 1",
         "image": "https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Ice_Sticker_1.png/100px-Decor_Ice_Sticker_1.png"
-      }
-    ]
-  },
-  {
-    "key": "regular-roadside-coin",
-    "name": "Roadside",
-    "decor": "Coin",
-    "icon": "+",
-    "source": "Pikipedia Decor Pikmin",
-    "items": [
-      {
-        "key": "red-decor-red-coin",
-        "type": "red",
-        "label": "빨강",
-        "image": "https://pikmin.wiki.gallery/images/thumb/9/97/Decor_Red_Coin.png/95px-Decor_Red_Coin.png"
-      },
-      {
-        "key": "yellow-decor-yellow-coin",
-        "type": "yellow",
-        "label": "노랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/46/Decor_Yellow_Coin.png/100px-Decor_Yellow_Coin.png"
-      },
-      {
-        "key": "blue-decor-blue-coin",
-        "type": "blue",
-        "label": "파랑",
-        "image": "https://pikmin.wiki.gallery/images/thumb/f/f8/Decor_Blue_Coin.png/100px-Decor_Blue_Coin.png"
-      },
-      {
-        "key": "white-decor-white-coin",
-        "type": "white",
-        "label": "하양",
-        "image": "https://pikmin.wiki.gallery/images/thumb/e/ea/Decor_White_Coin.png/99px-Decor_White_Coin.png"
-      },
-      {
-        "key": "purple-decor-purple-coin",
-        "type": "purple",
-        "label": "보라",
-        "image": "https://pikmin.wiki.gallery/images/thumb/4/4c/Decor_Purple_Coin.png/93px-Decor_Purple_Coin.png"
-      },
-      {
-        "key": "rock-decor-rock-coin",
-        "type": "rock",
-        "label": "바위",
-        "image": "https://pikmin.wiki.gallery/images/thumb/2/2a/Decor_Rock_Coin.png/100px-Decor_Rock_Coin.png"
-      },
-      {
-        "key": "winged-decor-winged-coin",
-        "type": "winged",
-        "label": "날개",
-        "image": "https://pikmin.wiki.gallery/images/thumb/0/05/Decor_Winged_Coin.png/100px-Decor_Winged_Coin.png"
-      },
-      {
-        "key": "ice-decor-ice-coin",
-        "type": "ice",
-        "label": "얼음",
-        "image": "https://pikmin.wiki.gallery/images/thumb/c/c2/Decor_Ice_Coin.png/100px-Decor_Ice_Coin.png"
       }
     ]
   },
