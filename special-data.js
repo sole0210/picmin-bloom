@@ -1875,6 +1875,12 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/1/1f/Decor_Winged_Shaved_Ice.png/91px-Decor_Winged_Shaved_Ice.png"
+      },
+      {
+        "key": "ice-decor-ice-shaved-ice",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/5/55/Decor_Ice_Shaved_Ice.png/100px-Decor_Ice_Shaved_Ice.png"
       }
     ]
   },
@@ -2505,6 +2511,63 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "ice",
         "label": "얼음",
         "image": "https://pikmin.wiki.gallery/images/thumb/c/cf/Decor_Ice_Tiny_Instrument_Orchestra.png/108px-Decor_Ice_Tiny_Instrument_Orchestra.png?20260703020451"
+      }
+    ]
+  },
+  {
+    "key": "special-balinese-carving",
+    "name": "Balinese Carving",
+    "decor": "Special Decor",
+    "icon": "*",
+    "source": "Pikipedia Special Decor Pikmin",
+    "items": [
+      {
+        "key": "red-decor-red-balinese-carving",
+        "type": "red",
+        "label": "빨강",
+        "image": "https://pikmin.wiki.gallery/images/thumb/b/b2/Decor_Red_Balinese_Carving.png/100px-Decor_Red_Balinese_Carving.png"
+      },
+      {
+        "key": "yellow-decor-yellow-balinese-carving",
+        "type": "yellow",
+        "label": "노랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/b/b8/Decor_Yellow_Balinese_Carving.png/100px-Decor_Yellow_Balinese_Carving.png"
+      },
+      {
+        "key": "blue-decor-blue-balinese-carving",
+        "type": "blue",
+        "label": "파랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/5/55/Decor_Blue_Balinese_Carving.png/100px-Decor_Blue_Balinese_Carving.png"
+      },
+      {
+        "key": "white-decor-white-balinese-carving",
+        "type": "white",
+        "label": "하양",
+        "image": "https://pikmin.wiki.gallery/images/thumb/c/c3/Decor_White_Balinese_Carving.png/100px-Decor_White_Balinese_Carving.png"
+      },
+      {
+        "key": "purple-decor-purple-balinese-carving",
+        "type": "purple",
+        "label": "보라",
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/f5/Decor_Purple_Balinese_Carving.png/100px-Decor_Purple_Balinese_Carving.png"
+      },
+      {
+        "key": "rock-decor-rock-balinese-carving",
+        "type": "rock",
+        "label": "바위",
+        "image": "https://pikmin.wiki.gallery/images/thumb/2/2e/Decor_Rock_Balinese_Carving.png/100px-Decor_Rock_Balinese_Carving.png"
+      },
+      {
+        "key": "winged-decor-winged-balinese-carving",
+        "type": "winged",
+        "label": "날개",
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/18/Decor_Winged_Balinese_Carving.png/100px-Decor_Winged_Balinese_Carving.png"
+      },
+      {
+        "key": "ice-decor-ice-balinese-carving",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/fc/Decor_Ice_Balinese_Carving.png/100px-Decor_Ice_Balinese_Carving.png"
       }
     ]
   },
