@@ -423,6 +423,12 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/7/77/Decor_Winged_Toothbrush_%28Rare%29.png/100px-Decor_Winged_Toothbrush_%28Rare%29.png"
+      },
+      {
+        "key": "ice-decor-ice-toothbrush-rare",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/6/6b/Decor_Ice_Toothbrush_%28Rare%29.png/100px-Decor_Ice_Toothbrush_%28Rare%29.png"
       }
     ]
   },
@@ -474,6 +480,12 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/9/93/Decor_Winged_Toothbrush.png/100px-Decor_Winged_Toothbrush.png"
+      },
+      {
+        "key": "ice-decor-ice-toothbrush",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Ice_Toothbrush.png/100px-Decor_Ice_Toothbrush.png"
       }
     ]
   },
@@ -796,6 +808,63 @@ window.REGULAR_DECOR_CATEGORIES = [
     ]
   },
   {
+    "key": "regular-airport-luggage-tag",
+    "name": "Airport",
+    "decor": "Luggage Tag",
+    "icon": "+",
+    "source": "Pikipedia Decor Pikmin",
+    "items": [
+      {
+        "key": "red-decor-red-luggage-tag",
+        "type": "red",
+        "label": "빨강",
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/1e/Decor_Red_Luggage_Tag.png/100px-Decor_Red_Luggage_Tag.png"
+      },
+      {
+        "key": "yellow-decor-yellow-luggage-tag",
+        "type": "yellow",
+        "label": "노랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/6/66/Decor_Yellow_Luggage_Tag.png/100px-Decor_Yellow_Luggage_Tag.png"
+      },
+      {
+        "key": "blue-decor-blue-luggage-tag",
+        "type": "blue",
+        "label": "파랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/5/53/Decor_Blue_Luggage_Tag.png/100px-Decor_Blue_Luggage_Tag.png"
+      },
+      {
+        "key": "white-decor-white-luggage-tag",
+        "type": "white",
+        "label": "하양",
+        "image": "https://pikmin.wiki.gallery/images/thumb/9/91/Decor_White_Luggage_Tag.png/100px-Decor_White_Luggage_Tag.png"
+      },
+      {
+        "key": "purple-decor-purple-luggage-tag",
+        "type": "purple",
+        "label": "보라",
+        "image": "https://pikmin.wiki.gallery/images/thumb/e/eb/Decor_Purple_Luggage_Tag.png/100px-Decor_Purple_Luggage_Tag.png"
+      },
+      {
+        "key": "rock-decor-rock-luggage-tag",
+        "type": "rock",
+        "label": "바위",
+        "image": "https://pikmin.wiki.gallery/images/thumb/e/ec/Decor_Rock_Luggage_Tag.png/100px-Decor_Rock_Luggage_Tag.png"
+      },
+      {
+        "key": "winged-decor-winged-luggage-tag",
+        "type": "winged",
+        "label": "날개",
+        "image": "https://pikmin.wiki.gallery/images/thumb/8/8f/Decor_Winged_Luggage_Tag.png/100px-Decor_Winged_Luggage_Tag.png"
+      },
+      {
+        "key": "ice-decor-ice-luggage-tag",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/5/5b/Decor_Ice_Luggage_Tag.png/100px-Decor_Ice_Luggage_Tag.png"
+      }
+    ]
+  },
+  {
     "key": "regular-station-paper-train",
     "name": "Station",
     "decor": "Paper Train",
@@ -894,6 +963,12 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/d/dc/Decor_Winged_Ticket.png/100px-Decor_Winged_Ticket.png"
+      },
+      {
+        "key": "ice-decor-ice-ticket",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/0/00/Decor_Ice_Ticket.png/100px-Decor_Ice_Ticket.png"
       }
     ]
   },
@@ -945,6 +1020,12 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/9/99/Decor_Winged_Ticket_%28Rare%29.png/94px-Decor_Winged_Ticket_%28Rare%29.png?20260710010949"
+      },
+      {
+        "key": "ice-decor-ice-ticket-rare",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/3/3d/Decor_Ice_Ticket_%28Rare%29.png/100px-Decor_Ice_Ticket_%28Rare%29.png"
       }
     ]
   },
@@ -1851,6 +1932,12 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/4/44/Decor_Winged_Ball_Keychain.png/100px-Decor_Winged_Ball_Keychain.png"
+      },
+      {
+        "key": "ice-decor-ice-ball-keychain",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/9/9c/Decor_Ice_Ball_Keychain.png/100px-Decor_Ice_Ball_Keychain.png"
       }
     ]
   },
@@ -1902,6 +1989,12 @@ window.REGULAR_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/f/f4/Decor_Winged_Ball_Keychain_%28Rare%29.png/104px-Decor_Winged_Ball_Keychain_%28Rare%29.png?20260710010614"
+      },
+      {
+        "key": "ice-decor-ice-ball-keychain-rare",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/e/ef/Decor_Ice_Ball_Keychain_%28Rare%29.png/100px-Decor_Ice_Ball_Keychain_%28Rare%29.png"
       }
     ]
   },
