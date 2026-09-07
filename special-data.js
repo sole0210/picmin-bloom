@@ -1932,6 +1932,12 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "winged",
         "label": "날개",
         "image": "https://pikmin.wiki.gallery/images/thumb/1/19/Decor_Winged_Mooncake.png/100px-Decor_Winged_Mooncake.png"
+      },
+      {
+        "key": "ice-decor-ice-mooncake",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/f4/Decor_Ice_Mooncake.png/100px-Decor_Ice_Mooncake.png"
       }
     ]
   },
@@ -2583,6 +2589,63 @@ window.SPECIAL_DECOR_CATEGORIES = [
         "type": "yellow",
         "label": "노랑",
         "image": "https://pikmin.wiki.gallery/images/thumb/5/5b/Decor_Yellow_Golden_Toy_Airplane.png/100px-Decor_Yellow_Golden_Toy_Airplane.png"
+      }
+    ]
+  },
+  {
+    "key": "special-wurst",
+    "name": "Wurst",
+    "decor": "Special Decor",
+    "icon": "*",
+    "source": "Pikipedia Special Decor Pikmin",
+    "items": [
+      {
+        "key": "red-decor-red-wurst",
+        "type": "red",
+        "label": "빨강",
+        "image": "https://pikmin.wiki.gallery/images/thumb/7/70/Decor_Red_Wurst.png/100px-Decor_Red_Wurst.png"
+      },
+      {
+        "key": "yellow-decor-yellow-wurst",
+        "type": "yellow",
+        "label": "노랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/1a/Decor_Yellow_Wurst.png/100px-Decor_Yellow_Wurst.png"
+      },
+      {
+        "key": "blue-decor-blue-wurst",
+        "type": "blue",
+        "label": "파랑",
+        "image": "https://pikmin.wiki.gallery/images/thumb/1/13/Decor_Blue_Wurst.png/100px-Decor_Blue_Wurst.png"
+      },
+      {
+        "key": "white-decor-white-wurst",
+        "type": "white",
+        "label": "하양",
+        "image": "https://pikmin.wiki.gallery/images/thumb/5/5d/Decor_White_Wurst.png/100px-Decor_White_Wurst.png"
+      },
+      {
+        "key": "purple-decor-purple-wurst",
+        "type": "purple",
+        "label": "보라",
+        "image": "https://pikmin.wiki.gallery/images/thumb/7/7b/Decor_Purple_Wurst.png/100px-Decor_Purple_Wurst.png"
+      },
+      {
+        "key": "rock-decor-rock-wurst",
+        "type": "rock",
+        "label": "바위",
+        "image": "https://pikmin.wiki.gallery/images/thumb/f/fc/Decor_Rock_Wurst.png/100px-Decor_Rock_Wurst.png"
+      },
+      {
+        "key": "winged-decor-winged-wurst",
+        "type": "winged",
+        "label": "날개",
+        "image": "https://pikmin.wiki.gallery/images/thumb/9/98/Decor_Winged_Wurst.png/100px-Decor_Winged_Wurst.png"
+      },
+      {
+        "key": "ice-decor-ice-wurst",
+        "type": "ice",
+        "label": "얼음",
+        "image": "https://pikmin.wiki.gallery/images/thumb/b/b5/Decor_Ice_Wurst.png/100px-Decor_Ice_Wurst.png"
       }
     ]
   }
